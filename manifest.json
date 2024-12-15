@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2, 
+    "name": "yt-comment-fix",
+    "version": "1.0",
+
+    "description": "Fixes YTs comments being black instead of white.",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["yt-comment-fix.js"]
+        }
+    ]
+}
